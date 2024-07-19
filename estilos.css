@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    margin-bottom: 2rem;
+}
+label {
+    margin-right: 1rem;
+}
+input, select {
+    margin-bottom: 1rem;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#chart-container {
+    width: 60%;
+    margin-top: 2rem;
+}
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
